@@ -1,0 +1,247 @@
+.navigation {
+    background: none repeat scroll 0 0 #021b99;
+    float: none !important;
+    margin: 5px auto 0;
+    padding: 0;
+    width: 100%!important;
+}
+nav
+	{
+		/*width:1024px;*/
+		margin:0 auto;
+	}
+
+.mega-menu ul {
+    display: none;
+}
+.mega-menu ul, .mega-menu ul li {
+    list-style: none outside none;
+}
+.mega-menu ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.mega-menu ul li ul {
+    display: none;
+}
+.mega-menu .sub {
+    display: none;
+    min-height: 392px;
+}
+.mega-menu .sub ul {
+    display: block;
+}
+.mega-menu {
+    font: 13px  "tahoma";
+    list-style: none outside none;
+    margin:0 auto;
+    padding: 0;
+    position: relative;
+	width:1024px;
+}
+.mega-menu {
+    position: relative;
+ /*   width:785px;
+	float:right;*/
+}
+.mega-menu li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.mega-menu li a {
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 16px;
+    padding:10px 18px;
+    text-decoration: none;
+}
+.mega-menu li.mega-hover a, .mega-menu li a:hover, .mega-menu li a.active {
+    background:#f5f5f5 !important;
+    color: #434343 !important;
+}
+.mega-menu ul a:hover {
+    text-decoration: underline;
+}
+.mega-menu li li.mega-hover > a, .mega-menu li li > a:hover {
+    background-color: #ceeafa !important;
+    color: #2c945a !important;
+    text-decoration: none;
+}
+.mega-menu li .sub li.mega-hover.haschild > a, .mega-menu li .sub li.haschild > a:hover {
+    background-color: #ceeafa !important;
+/*    background-position: 180px -396px;
+*/    padding-right: 19px;
+background:url("/Images/sprite2.png") no-repeat scroll 173px 9px rgba(0, 0, 0, 0);
+}
+.mega-menu li .sub li.haschild.mega-hover {
+    width: 201px;
+}
+.mega-menu li .sub li li.haschild.mega-hover {
+    width: 211px;
+}
+.mega-menu li .sub li.haschild.mega-hover a {
+    position: relative;
+    z-index: 20;
+	color:#434343;
+	background-color:#ceeafa !important;
+}
+.mega-menu li li.mega-hover li > a {
+    /*background-color: #FFFFFF;*/
+}
+.mega-menu li .sub-container {
+    position: absolute;
+	left:0px !important;
+	width:1024px;
+	z-index:99999 !important;
+}
+.mega-menu li .sub {
+	background:none repeat scroll 0 0 #F5F5F5;
+    border: 0 none;
+    padding: 24px 20px;
+	box-shadow:none !important;
+}
+.mega-menu li .sub li {
+    float: none;
+    font-size: 1em;
+    font-weight: normal;
+    list-style: none outside none;
+	width:190px;
+}
+.mega-menu li .sub li ul {
+    border-left: 1px solid #BDE2F0;
+}
+.mega-menu li .sub li ul li {
+    padding-left: 9px;
+}
+.mega-menu li .sub a {
+    border-color: #ddd;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 0;
+    display: block;
+    float: none;
+    font-size: 0.923em;
+    margin-bottom: -1px;
+    padding: 5px 8px 6px;
+	color:#4a4a4a;
+	background:none;
+	text-align: left;
+}
+.mega-menu li .sub li.haschild > a {
+    background:url("/Images/sprite.png") no-repeat scroll 173px 9px rgba(0, 0, 0, 0) !important;
+}
+.mega-menu .sub ul li {
+    padding-right: 0;
+}
+.mega-menu li .sub-container.non-mega .sub {
+  /*  padding: 10px;*/
+}
+.mega-menu li .sub-container.non-mega li {
+    margin: 0;
+    padding: 0;
+    width: 190px;
+}
+.mega-menu li .sub-container.non-mega li a {
+    padding: 7px 5px 7px 22px;
+}
+.mega-menu li .sub-container.non-mega li a:hover {
+   /* color: #339900;*/
+}
+.mega-menu li .lst {
+    border-bottom: 1px solid #BDE2F0;
+}
+.mega-menu > li > a.selected {
+    background-color: #6BC200;
+}
+.mega-menu li.home a.selected {
+    background-color: #0090C5;
+    overflow: hidden;
+    text-indent: -999px;
+}
+.mega-menu li a.selected:hover, .mega-menu > li > a.selected.dc-mega:hover, .mega-menu > li.mega-hover a.selected.dc-mega {
+    color: #FFFFFF;
+}
+.mega-menu .mega-hover a.selected {
+}
+.mega-menu .mega-hover a.selected:hover {
+    color: #0090C5;
+}
+.mega-menu .sub ul {
+    display: none;
+}
+.mega-menu .sub .mega-hover > ul, .mega-menu .sub .mega-hover > ul .mega-hover ul {
+    background-color: #ceeafa;
+    display: block;
+    margin-left: 200px;
+    position: absolute;
+    top: 0;
+    width: 210px;
+	box-shadow:none !important;
+}
+.mega-menu .sub .mega-hover > ul .mega-hover ul {
+    margin-left: 210px;
+}
+.mega-menu .sub {
+    margin-bottom: 23px;
+}
+.mega-menu .sub:before, .mega-menu .sub:after {
+    content: "";
+    display: table;
+}
+.mega-menu .sub:after {
+    clear: both;
+}
+.mega-menu .sub {
+}
+.mega-menu .icnHome li a {
+    background: url("/img/home.png") no-repeat scroll 9px 5px transparent !important;
+}
+.level2 {
+    float: left;
+    position: relative;
+}
+
+.mega-menu .megaTsrBx {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    float: left;
+    margin-right: 20px;
+    padding: 10px 15px 28px;
+    width: 170px;
+}
+.megaTsrBx p {
+    color:#467313;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    padding: 10px 0 0;
+}
+.thdln {
+    margin: 0;
+    padding: 7px 0 8px;
+}
+.mega-menu li.mega-hover .megaTsrBx a {
+    border: 0 none;
+    padding: 0;
+}
+
+.homepage .mega-menu .n1 a {
+    visibility: hidden;
+    width: 60px;
+}
+.homepage .mega-menu .n1 {
+    border-right: 1px solid #66BCDC;
+}
+.mega-menu .sub {
+    min-height: 20px;
+}
+.mega-menu .sub ul {
+    min-height: 20px !important;
+}
+#worldwide{
+display:none;
+}

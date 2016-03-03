@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+#flash-image {
+	height:283px;
+	z-index:1;
+	margin: 0 auto 18px;
+}
+
+#flash-shadow {
+background-image:url(/images/flash-shadow.gif);
+background-repeat: no-repeat;
+	height:17px;
+	z-index:1;
+}

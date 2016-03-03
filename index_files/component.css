@@ -1,0 +1,137 @@
+/* Transitions */
+
+.cbp-spmenu, .cbp-spmenu-push {
+	transition: all 0.3s ease;
+}
+
+/* Example media queries */
+
+@media screen and (max-width: 55.1875em) {
+.cbp-spmenu-vertical {
+	width:742px;
+}
+}
+ @media all and (max-width:768px) {
+.cbp-spmenu-right {
+display:none;}
+.cbp-spmenu {
+    background: none repeat scroll 0 0 #FACA56;
+    overflow: hidden;
+    position: absolute;
+    width: 200px;
+    z-index: 999;
+	right:0;
+}
+.cbp-spmenu-right.cbp-spmenu-open {
+    height: 100%;
+/*    margin-top: -4px;
+*/    overflow: scroll;
+display:block;}
+#cbp-spmenu-s2 .mega-menu ul li {
+	background:none;
+	margin:0 auto;
+/*	padding:5px 41px 5px 16px;
+*/	border-bottom:1px solid #ffffff;
+}
+#cbp-spmenu-s2 .mega-menu ul {
+	margin:0 auto;
+}
+#cbp-spmenu-s2 .mega-menu ul li:hover a, #cbp-spmenu-s2 .mega-menu ul li a.active , #cbp-spmenu-s2 .mega-menu ul li ul li:hover a ,  #cbp-spmenu-s2 .mega-menu ul li ul li a.active , #cbp-spmenu-s2 .mega-menu ul li ul li ul li:hover a , #cbp-spmenu-s2 .mega-menu ul li ul li ul li a.active{
+	color:#2c945a;
+	background:#cdf3dd !important;
+/*	background-image:url(../../Images/sprite2.png) no-repeat scroll 165px 15px rgba(0, 0, 0, 0);
+*/	padding:8px !important;
+}
+
+#cbp-spmenu-s2 .mega-menu  ul li ul li ul li a {
+	color:#434343;
+}
+#cbp-spmenu-s2 .mega-menu  ul li ul li ul {
+	left:0 !important;
+}
+.mega-menu ul li:hover li a , #cbp-spmenu-s2 .mega-menu ul li ul li:hover ul li a  {
+	color:#434343 !important;
+}
+#cbp-spmenu-s2 .mega-menu ul li ul li:hover a , #cbp-spmenu-s2 .mega-menu ul li ul li ul li:hover a {
+	color:#2c945a !important;
+}
+.mega-menu ul li ul li a {
+	border-bottom:0 none;
+	padding:0 !important;
+}
+#cbp-spmenu-s2 .mega-menu ul li ul li {
+	border-bottom:0 none;
+}
+.navigation {
+    background: none repeat scroll 0 0 #FACA56;
+    float: none !important;
+    padding: 0;
+    width: auto !important;
+}
+nav
+	{
+		margin:0 auto;
+		/*width:73% !important;*/
+	}
+.mega-menu {
+    font: 13px  "tahoma";
+	width:auto !important;
+}
+.megaTsrBx {
+display:none !important;
+}
+.mega-menu li .sub-container {
+	position:relative !important;
+}
+.mega-menu li .sub-container {
+    left: 0 !important;
+    position: absolute;
+    width: auto !important;
+    z-index: 99999 !important;
+}
+.mega-menu li {
+	float:none !important;
+}
+.mega-menu li a {
+	float:none !important;
+}
+.sub-container mega {
+left: 0;
+    top: 0px !important;
+    width: 1024px;
+    z-index: 1000;
+}
+.mega-menu .sub .mega-hover > ul, .mega-menu .sub .mega-hover > ul .mega-hover ul {
+    background-color: #cdf3dd;
+    display: block;
+    margin-left: 0 !important;
+    position:static !important;
+    top: 0;
+    width: auto !important;
+	box-shadow:none !important;
+}
+.mega-menu li a {
+    padding: 10px !important;
+}
+.mega-menu li .sub {
+	background:none repeat scroll 0 0 #F5F5F5;
+    border: 0 none;
+    padding:0 !important;
+	box-shadow:none !important;
+}
+.mega-menu li .sub li {
+    float: none;
+    width: auto;
+}
+.mega-menu li .sub-container {
+    position: absolute;
+	left:0px !important;
+	width:900px;
+	z-index:99999 !important;
+	top:0 !important;
+}
+
+.mega-menu li .sub li.haschild > a {
+    background: url("/Images/sprite.png") no-repeat scroll 165px 15px rgba(0, 0, 0, 0) !important;
+}
+}

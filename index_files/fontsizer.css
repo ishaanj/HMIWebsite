@@ -1,0 +1,44 @@
+html {
+	width: 100%;
+	height: 100%;
+	font-size:12px;
+	line-height: 160%;
+}
+/*body { width: 800px; margin: 30px auto; }*/
+
+
+/* Font-Sizer Specific Styling */
+
+.fsizer {
+	float:right;
+	padding-left: 8px;
+}
+.fsizer a {
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: 100%;
+    margin-right: 7px;
+    text-align: center;
+    text-decoration: none;
+    width: 20px;
+}
+.fsizer a:hover {
+	text-decoration: none;
+}
+/* Three 'A' links used to control size */
+
+.fsizer a#fs_sml {
+	font-size:14px;
+	color:#434343;
+}
+.fsizer a#fs_med {
+	font-size:11px;
+	color:#434343;
+}
+.fsizer a#fs_lrg {
+	font-size:18px;
+	color:#434343;
+}
+.fsizer a.fsactive {
+	cursor: pointer;
+} /* When mode is active */
